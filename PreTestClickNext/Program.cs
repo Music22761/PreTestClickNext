@@ -451,7 +451,7 @@ namespace PreTestClickNext
 
             for (int i = 0; i < str2.Length; i++)
             {
-                char[] reverse = str2[i].ToCharArray();
+                char[] reverse = arrayConvert(str2[i]);
 
                 // เริ่มจากดัชนีสุดท้ายของอาร์เรย์
                 for (int j = reverse.Length - 1; j >= 0; j--)
